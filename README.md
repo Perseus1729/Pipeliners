@@ -12,5 +12,3 @@ Changes in code:-
 <br />
 2.Changing hash functions- line 278 to 317
 <br />
-## Files
-1.file bingo
