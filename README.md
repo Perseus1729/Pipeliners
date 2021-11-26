@@ -1,4 +1,5 @@
 # Pipeliners
+`bingo_dpc3.l1d_pref` is the default L1D prefetcher file with all default values.<br/>
 `generate.sh` produces outputs for all five traces with 10M instructions.When `./generate.sh` is run, it builds and generates the following results in different folders.<br />
 <ul>
   <li>varying REGION_SIZE-512B, 1KB, 2KB</li>
@@ -6,14 +7,13 @@
   <li>varying L1D_THRESH, L2C_THRESH- (0.5,0.15),(0.25,0.15),(0.75,0.25)</li>
 </ul>
 
-`bingo.l2c_pref` is prefetch file with bingo implemented on L2C.<br />
 `bingo_PCOff2PC.l1d_pref` uses PC as short index instead of PC + offset.<br/>
 >Code changes in line 602
 
 `bingo_PCOff2addr.l1d_pref` uses address as short index instead of PC + offset.<br/>
 >Code changes in line 602
 
-`bingo_dpc3.l1d_pref` is the default L1D prefetcher file with all default values.<br/>
+`bingo.l2c_pref` is prefetch file with bingo implemented on L2C.<br />
 
 `bingo_hash.l1d_pref` uses the following 3 custom hash functions
 ```
