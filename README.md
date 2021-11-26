@@ -13,7 +13,7 @@
 `bingo_PCOff2addr.l1d_pref` uses address as short index instead of PC + offset.<br/>
 >Code changes in line 602
 
-`bingo.l2c_pref` is prefetch file with bingo implemented on L2C.<br />
+`bingo.l2c_pref` is prefetch file with bingo implemented on L2C, as we already have the implementation of Bingo for L1D, we extended the code to L2 cache also in this file.(Note:- While build the champsime we need to use the format 'bimodal-no-bingo-bingo-nextline-lru-1')<br />
 
 `bingo_hash.l1d_pref` uses the following 3 custom hash functions
 ```
