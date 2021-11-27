@@ -1,5 +1,4 @@
 # Pipeliners
-Run `./generate.sh` along with all the files in champsim folder.It builds and generates the results in `results` folder<br/>
 
 Install Docker for your operating system, in case you haven’t already installed it. (https://docs.docker.com/engine/install/)
 
@@ -8,6 +7,7 @@ Pull the following Docker image for champsim:
 
 Copy the files from the current repository into <b>champsim-lab/Champsim/prefetcher</b>
 
+Run `./generate.sh` along with all the files in champsim folder.It builds and generates the results in `results` folder<br/>
 
 
 `bingo_dpc3.l1d_pref` is the default L1D prefetcher file with all default values.<br/>
