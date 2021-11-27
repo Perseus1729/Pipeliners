@@ -7,7 +7,8 @@ Pull the following Docker image for champsim:
 
 Copy the files from the current repository into <b>champsim-lab/Champsim/prefetcher</b>
 <br/>
-Download the five traces [here](https://hpca23.cse.tamu.edu/champsim-traces/speccpu/index.html) into traces folder.
+Download the five traces [here](https://hpca23.cse.tamu.edu/champsim-traces/speccpu/index.html) into traces folder.<br/>
+For observations, experiments and conclusions, refer to the [report](https://docs.google.com/presentation/d/1tYBewUXklJLwoML9h82btmcHxFeTekeJnfdKhcOe8AI/edit?usp=sharing).
 
 Run `./generate.sh` along with all the files in champsim folder.It builds and generates the results in `results` folder<br/>
 
