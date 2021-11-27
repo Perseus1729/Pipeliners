@@ -1,6 +1,8 @@
 # Pipeliners
+Run `./generate.sh` along with all the files in champsim folder.It builds and generates the results in `results` folder<br/>
+
 `bingo_dpc3.l1d_pref` is the default L1D prefetcher file with all default values.<br/>
-`generate.sh` produces outputs for all five traces with 10M instructions.When `./generate.sh` is run, it builds and generates the following results in different folders.<br />
+`generate.sh` produces outputs for all five traces with 10M instructions.<br />
 <ul>
   <li>varying REGION_SIZE-512B, 1KB, 2KB</li>
   <li>varying FT_SIZE, AT_SIZE-(64,128),(64,64),(64,256),(32,128),(128,128)</li>
